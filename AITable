@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparativa de Guiones</title>
+    <!-- Incluye el CDN de Tailwind CSS para un estilo moderno y rápido -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-black flex items-center justify-center min-h-screen p-4 sm:p-6 lg:p-12">
+
+    <!-- Main container for the entire page content -->
+    <div class="max-w-7xl mx-auto w-full">
+        <!-- Title and description section -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-yellow-400 mb-4">MODELOS de GUIÓN CON IA</h1>
+            <p class="text-lg text-gray-300 max-w-2xl mx-auto">
+                Una comparación clara entre las plataformas tradicionales de IA y un modelo innovador centrado en el guionista y el valor humano.
+            </p>
+        </header>
+
+        <!-- Container for the table with horizontal scroll on small screens -->
+        <div class="overflow-x-auto rounded-3xl shadow-lg border border-gray-700">
+            <table class="w-full text-left table-auto">
+                <!-- Table header -->
+                <thead class="bg-gray-900">
+                    <tr class="text-yellow-400 text-lg">
+                        <th scope="col" class="px-6 py-4 font-bold rounded-tl-3xl">Característica</th>
+                        <th scope="col" class="px-6 py-4 font-bold">Plataformas Tradicionales de IA</th>
+                        <th scope="col" class="px-6 py-4 font-bold rounded-tr-3xl">QANTICA</th>
+                    </tr>
+                </thead>
+
+                <!-- Table body -->
+                <tbody class="divide-y divide-gray-700">
+                    <!-- Row for "Rol de la IA" -->
+                    <tr class="bg-gray-800">
+                        <td class="px-6 py-4 text-yellow-400 font-semibold">Rol de la IA</td>
+                        <td class="px-6 py-4 text-gray-300">Genera contenido automáticamente y lo entrega como “resultado final”.</td>
+                        <td class="px-6 py-4 text-gray-300">Funciona como co-creador, guía y estimula el pensamiento creativo del guionista.</td>
+                    </tr>
+                    
+                    <!-- Row for "Protagonismo humano" -->
+                    <tr class="bg-gray-900">
+                        <td class="px-6 py-4 text-yellow-400 font-semibold">Protagonismo Humano</td>
+                        <td class="px-6 py-4 text-gray-300">El humano recibe texto ya hecho → dependencia de la IA.</td>
+                        <td class="px-6 py-4 text-gray-300">El guionista es el centro: la IA hace preguntas, marca un orden y acompaña el proceso.</td>
+                    </tr>
+                    
+                    <!-- Row for "Creatividad" -->
+                    <tr class="bg-gray-800">
+                        <td class="px-6 py-4 text-yellow-400 font-semibold">Creatividad</td>
+                        <td class="px-6 py-4 text-gray-300">Riesgo de homogeneidad y repetición de patrones de IA.</td>
+                        <td class="px-6 py-4 text-gray-300">Originalidad y autenticidad, porque el talento surge del autor apoyado por la IA.</td>
+                    </tr>
+                    
+                    <!-- Row for "Propiedad intelectual" -->
+                    <tr class="bg-gray-900">
+                        <td class="px-6 py-4 text-yellow-400 font-semibold">Propiedad Intelectual</td>
+                        <td class="px-6 py-4 text-gray-300">Ambigüedad: ¿de quién es el texto generado por IA?</td>
+                        <td class="px-6 py-4 text-gray-300">100% del guionista: la IA no “crea” sino que acompaña y potencia.</td>
+                    </tr>
+                    
+                    <!-- Row for "Valor agregado" -->
+                    <tr class="bg-gray-800">
+                        <td class="px-6 py-4 text-yellow-400 font-semibold rounded-bl-3xl">Valor Agregado</td>
+                        <td class="px-6 py-4 text-gray-300">Ahorro de tiempo, pero sacrificio de voz propia.</td>
+                        <td class="px-6 py-4 text-gray-300 rounded-br-3xl">Desarrollo de talento humano con impacto real en la industria creativa. A su vez es un entorno educativo.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
